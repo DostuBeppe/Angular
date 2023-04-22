@@ -10,6 +10,8 @@ import { MatIconModule } from '@angular/material/icon';
 import { MatMenuModule } from '@angular/material/menu';
 import { MatSidenavModule } from '@angular/material/sidenav';
 import { MatToolbarModule } from '@angular/material/toolbar';
+import { BeachVolleyComponent } from './beach-volley/beach-volley.component';
+import { HomepageComponent } from './homepage/homepage.component';
 
 const ANGULAR_MATERIAL_COMPONENTS = [
   MatButtonModule,
@@ -20,7 +22,7 @@ const ANGULAR_MATERIAL_COMPONENTS = [
 ];
 
 @NgModule({
-  declarations: [AppComponent],
+  declarations: [AppComponent, BeachVolleyComponent, HomepageComponent],
   imports: [
     BrowserModule,
     AppRoutingModule,
